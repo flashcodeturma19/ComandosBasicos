@@ -19,7 +19,7 @@ public class Operacoes {
 		
 		
 	}
-	public void divisao(int x1,int x2) {
+	public void divisao(int x1,int x2) {//conflito
 		
 		int resultado = x1/x2;
 		System.out.println("o resultado da sua divisao é " + resultado);
