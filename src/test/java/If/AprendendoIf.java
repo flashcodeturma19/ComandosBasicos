@@ -1,5 +1,7 @@
 package If;
 
+import java.util.Scanner;
+
 public class AprendendoIf {
 
 	public static void main(String[] args) {
@@ -16,11 +18,17 @@ public class AprendendoIf {
 		// & E
 
 		// IF em cadeado multiplas valida
+		
+		Scanner scanner = new Scanner(System.in);
 
 		System.out.println("Bem vindo ao Banco Champions");
 		
-		int boleto = 1100;
-		int saldo = 1000;
+		System.out.println("Digite o valor do seu boleto para pagamento:");
+		int boleto = scanner.nextInt();
+		System.out.println("digite o saldo da sua conta:");
+		int saldo = scanner.nextInt();
+		System.out.println("Digite seu nome:");
+		double nome = scanner.nextDouble();
 		int limite = 200;
 		int saldoelimite = saldo + limite;
 		
